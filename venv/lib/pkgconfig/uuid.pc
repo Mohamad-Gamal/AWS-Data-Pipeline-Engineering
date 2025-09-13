@@ -1,0 +1,11 @@
+prefix=/workspaces/AWS-Data-Pipeline-Engineering/venv
+exec_prefix=/workspaces/AWS-Data-Pipeline-Engineering/venv
+libdir=/workspaces/AWS-Data-Pipeline-Engineering/venv/lib
+includedir=/workspaces/AWS-Data-Pipeline-Engineering/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
